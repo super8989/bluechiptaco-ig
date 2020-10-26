@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+## Create a React Feed to design specs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Build a feed ui (like Instagram) using React to serve up data from data.json. We are looking at how you structure your components and use styles.
 
-## Available Scripts
+## Useful Files
 
-In the project directory, you can run:
+- data.json => this represents a sample api response. You can use this as your test data and load in rather than make a full server
+- Screenshot.png => an example instagram pic of a single feed.
 
-### `yarn start`
+## Requirements and Constraints
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Post Header:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Do not worry about the ellipsis menu items
+- do not worry about navigating to a persons profile
+- Ignore the sponsored field
+- This component needs to show the users avatar, and full name
 
-### `yarn test`
+Post Footer:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Ignore the comments button
+- you can use any stock icons for liked and bookmarks. You do not need to match the sample image
+- you only need to show if the user (based on the response) has liked and bookmarked it
 
-### `yarn build`
+Post Media:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- will only ever be one item
+- can be one of an image, audio, video though this scenario will only have image
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Post Caption and Title:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Does not need to have any special rendering for mentions, hashtags
+- Assume that this requirement will be updated in the future and we would want to assure the updates are minimal
 
-### `yarn eject`
+Notes:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Focus on how you would design the components.
+- Assume that while we are not adding any navigation, there will be a need to reuse some parts of the feed to build a details page for posts.
