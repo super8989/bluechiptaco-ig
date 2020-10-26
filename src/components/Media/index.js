@@ -4,7 +4,7 @@ import './Media.scss';
 function Media() {
 	return (
 		<div className='Media'>
-			<h1>Media</h1>
+			<img src='https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ' />
 		</div>
 	);
 }

@@ -2,16 +2,15 @@
 	height: 5vh;
 	display: flex;
 
-	img {
-		width: 3rem;
-		height: 3rem;
-		object-fit: cover;
-		border-radius: 50%;
-	}
-
 	&__left {
+		height: 100%;
 		display: flex;
 		flex-grow: 1;
+		align-items: center;
+
+		img {
+			height: 100%;
+		}
 
 		&--username {
 			display: flex;
