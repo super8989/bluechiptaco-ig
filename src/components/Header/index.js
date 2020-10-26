@@ -5,14 +5,14 @@ import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 
 import './Header.scss';
 
-function Header() {
+function Header({ post }) {
 	return (
 		<div className='Header'>
 			<div className='Header__left'>
-				<img src='https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ' />
-				<div className='Header__left--username'>
-					<span>Username</span>
-					<span>sponsored</span>
+				<img src={post.user.profilePhoto} alt={post.user.username} />
+				<div className='Header__left--user'>
+					<span className='username'>{post.user.username}</span>
+					<span>Sponsored</span>
 				</div>
 			</div>
 			<div className='Header__right'>

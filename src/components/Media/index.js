@@ -1,10 +1,10 @@
 import React from 'react';
 import './Media.scss';
 
-function Media() {
+function Media({ post }) {
 	return (
 		<div className='Media'>
-			<img src='https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ' />
+			<img src={post.media.uuid} alt={post.title} />
 		</div>
 	);
 }

@@ -4,11 +4,11 @@ import Header from '../Header';
 import Media from '../Media';
 import './Post.scss';
 
-function Post() {
+function Post({ post }) {
 	return (
 		<div className='Post'>
-			<Header />
-			<Media />
+			<Header post={post} />
+			<Media post={post} />
 			<Footer />
 		</div>
 	);
