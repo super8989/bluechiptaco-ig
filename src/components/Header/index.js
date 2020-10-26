@@ -16,7 +16,7 @@ function Header({ post }) {
 				</div>
 			</div>
 			<div className='Header__right'>
-				<FontAwesomeIcon icon={faEllipsisH} />
+				<FontAwesomeIcon icon={faEllipsisH} className='header-menu' />
 			</div>
 		</div>
 	);
