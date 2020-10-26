@@ -1,4 +1,8 @@
 import React from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
+
 import './Header.scss';
 
 function Header() {
@@ -12,7 +16,7 @@ function Header() {
 				</div>
 			</div>
 			<div className='Header__right'>
-				<span>...</span>
+				<FontAwesomeIcon icon={faEllipsisH} />
 			</div>
 		</div>
 	);
