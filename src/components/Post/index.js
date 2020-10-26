@@ -1,10 +1,15 @@
 import React from 'react';
+import Footer from '../Footer';
+import Header from '../Header';
+import Media from '../Media';
 import './Post.scss';
 
 function Post() {
 	return (
 		<div className='Post'>
-			<h1>Hello</h1>
+			<Header />
+			<Media />
+			<Footer />
 		</div>
 	);
 }
