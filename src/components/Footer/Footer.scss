@@ -1,7 +1,23 @@
 .Footer {
 	display: flex;
+	height: 4rem;
+
+	svg {
+		font-size: 1.8rem;
+		cursor: pointer;
+	}
 
 	&__left {
-		flex-grow: 1;
+		display: flex;
+		width: 34%;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	&__right {
+		margin-left: auto;
+		display: flex;
+		align-items: center;
+		margin-right: 2rem;
 	}
 }
