@@ -7,15 +7,25 @@ const post = data.feed[0];
 
 function App() {
 	const [isLiked, setIsLiked] = useState(post.isLiked);
-	// const [isBookmarked, setIsBookmarked] = useState(post.isBookmarked);
+	const [isBookmarked, setIsBookmarked] = useState(post.isBookmarked);
 
 	const likePost = () => {
 		setIsLiked(!isLiked);
 	};
 
+	const bookmarkPost = () => {
+		setIsBookmarked(!isBookmarked);
+	};
+
 	return (
 		<div className='App'>
-			<Post post={post} likePost={likePost} isLiked={isLiked} />
+			<Post
+				post={post}
+				likePost={likePost}
+				isLiked={isLiked}
+				bookmarkPost={bookmarkPost}
+				isBookmarked={isBookmarked}
+			/>
 		</div>
 	);
 }
