@@ -29,7 +29,7 @@
 				"username": "Ruthie_Tromp1",
 				"profilePhoto": "https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68"
 			},
-			"isBookmarked": false,
+			"isBookmarked": true,
 			"isLiked": false
 		},
 		{
@@ -45,8 +45,8 @@
 				"username": "Ruthie_Tromp2",
 				"profilePhoto": "https://i.picsum.photos/id/1000/5626/3635.jpg?hmac=qWh065Fr_M8Oa3sNsdDL8ngWXv2Jb-EE49ZIn6c0P-g"
 			},
-			"isBookmarked": false,
-			"isLiked": false
+			"isBookmarked": true,
+			"isLiked": true
 		},
 		{
 			"id": 41861,
