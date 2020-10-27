@@ -1,3 +1,7 @@
+## Demo
+
+[https://bluechiptaco-ig.netlify.app/](https://bluechiptaco-ig.netlify.app/)
+
 ## Create a React Feed to design specs
 
 Build a feed ui (like Instagram) using React to serve up data from data.json. We are looking at how you structure your components and use styles.
