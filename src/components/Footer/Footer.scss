@@ -14,6 +14,10 @@
 		width: 34%;
 		align-items: center;
 		justify-content: space-evenly;
+
+		.likedHeart {
+			color: red;
+		}
 	}
 
 	&__right {

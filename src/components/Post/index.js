@@ -4,12 +4,12 @@ import Header from '../Header';
 import Media from '../Media';
 import './Post.scss';
 
-function Post({ post }) {
+function Post({ post, likePost, isLiked }) {
 	return (
 		<div className='Post'>
 			<Header post={post} />
 			<Media post={post} />
-			<Footer />
+			<Footer likePost={likePost} isLiked={isLiked} />
 		</div>
 	);
 }
